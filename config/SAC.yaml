@@ -1,0 +1,9 @@
+seed: 5
+lr: 1e-4
+process_id: ${hydra:job.num}
+
+hydra:
+  sweeper:
+    params:
+      ++seed: 1,2,3,4
+      ++lr: 1e-4,1e-3,1e-2

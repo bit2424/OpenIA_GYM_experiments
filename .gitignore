@@ -5,3 +5,5 @@
 /logs_wandb
 /models
 /wandb
+/multirun
+/outputs
